@@ -1,0 +1,33 @@
+/* first section */
+section {
+  height: 500px;
+  width: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+/* Larger pic in the center */
+img {
+  height: 300px;
+}
+
+/* Smaller pic on the insert */
+.pic {
+  height: 175px;
+  margin-left: 100px;
+
+}
+
+.even-columns {
+  display: flex;
+}
+
+.even-columns > * {
+  flex-basis: 100%;
+}
